@@ -1,0 +1,1590 @@
+2026-04-03 09:19:14: 2026-04-03 09:19:14.727 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:19:17: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:19:18: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:19:18: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2339.70it/s]
+2026-04-03 09:19:18: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:19:18: Key                     | Status     |  | 
+2026-04-03 09:19:18: ------------------------+------------+--+-
+2026-04-03 09:19:18: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:19:18: 
+2026-04-03 09:19:18: [3mNotes:
+2026-04-03 09:19:18: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:19:20: 2026-04-03 09:19:20.485 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:19:20: 2026-04-03 09:19:20.486 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:19:20: 2026-04-03 09:19:20.488 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:19:20: 2026-04-03 09:19:20.490 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:19:20: 2026-04-03 09:19:20.578 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:19:21: 2026-04-03 09:19:21.627 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:19:21: INFO:     Started server process [10396]
+2026-04-03 09:19:21: INFO:     Waiting for application startup.
+2026-04-03 09:19:21: INFO:     Application startup complete.
+2026-04-03 09:19:21: INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+2026-04-03 09:19:37: 2026-04-03 09:19:37.246 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:19:49: 2026-04-03 09:19:49.755 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:19:50: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:19:52: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:19:52: Loading weights: 100%|##########| 199/199 [00:00<00:00, 7236.39it/s]
+2026-04-03 09:19:53: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:19:53: Key                     | Status     |  | 
+2026-04-03 09:19:53: ------------------------+------------+--+-
+2026-04-03 09:19:53: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:19:53: 
+2026-04-03 09:19:53: [3mNotes:
+2026-04-03 09:19:53: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:19:54: 2026-04-03 09:19:54.710 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:19:54: 2026-04-03 09:19:54.712 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:19:54: 2026-04-03 09:19:54.713 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:19:54: 2026-04-03 09:19:54.714 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:19:54: 2026-04-03 09:19:54.795 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:19:55: 2026-04-03 09:19:55.798 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:19:55: INFO:     Started server process [21096]
+2026-04-03 09:19:55: INFO:     Waiting for application startup.
+2026-04-03 09:19:55: INFO:     Application startup complete.
+2026-04-03 09:19:55: INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+2026-04-03 09:20:18: 2026-04-03 09:20:18.577 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:20:22: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:20:22: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2065.71it/s]
+2026-04-03 09:20:22: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:20:22: Key                     | Status     |  | 
+2026-04-03 09:20:22: ------------------------+------------+--+-
+2026-04-03 09:20:22: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:20:22: 
+2026-04-03 09:20:22: [3mNotes:
+2026-04-03 09:20:22: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:20:24: 2026-04-03 09:20:24.350 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:20:24: 2026-04-03 09:20:24.353 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:20:24: 2026-04-03 09:20:24.354 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:20:24: 2026-04-03 09:20:24.355 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:20:24: 2026-04-03 09:20:24.446 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:20:25: 2026-04-03 09:20:25.509 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:20:25: INFO:     Started server process [20436]
+2026-04-03 09:20:25: INFO:     Waiting for application startup.
+2026-04-03 09:20:25: INFO:     Application startup complete.
+2026-04-03 09:20:25: INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+2026-04-03 09:20:55: 2026-04-03 09:20:55.672 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:20:55: 2026-04-03 09:20:55.765 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:20:56: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:20:57: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:20:59: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:20:59: Loading weights:  65%|######4   | 129/199 [00:00<00:00, 1286.27it/s]
+2026-04-03 09:20:59: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:20:59: Loading weights: 100%|##########| 199/199 [00:00<00:00, 1812.62it/s]
+2026-04-03 09:20:59: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:20:59: Key                     | Status     |  | 
+2026-04-03 09:20:59: ------------------------+------------+--+-
+2026-04-03 09:20:59: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:20:59: 
+2026-04-03 09:20:59: [3mNotes:
+2026-04-03 09:20:59: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:20:59: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2439.97it/s]
+2026-04-03 09:20:59: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:20:59: Key                     | Status     |  | 
+2026-04-03 09:20:59: ------------------------+------------+--+-
+2026-04-03 09:20:59: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:20:59: 
+2026-04-03 09:20:59: [3mNotes:
+2026-04-03 09:20:59: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:21:01: 2026-04-03 09:21:01.349 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:21:01: 2026-04-03 09:21:01.354 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:21:01: 2026-04-03 09:21:01.354 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:21:01: 2026-04-03 09:21:01.358 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:21:01: 2026-04-03 09:21:01.456 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:21:01: 2026-04-03 09:21:01.507 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:21:01: 2026-04-03 09:21:01.510 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:21:01: 2026-04-03 09:21:01.511 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:21:01: 2026-04-03 09:21:01.514 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:21:01: 2026-04-03 09:21:01.608 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:21:02: 2026-04-03 09:21:02.795 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:21:02: INFO:     Started server process [19764]
+2026-04-03 09:21:02: INFO:     Waiting for application startup.
+2026-04-03 09:21:02: INFO:     Application startup complete.
+2026-04-03 09:21:02: INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+2026-04-03 09:21:02: 2026-04-03 09:21:02.967 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:21:03: INFO:     Started server process [17028]
+2026-04-03 09:21:03: INFO:     Waiting for application startup.
+2026-04-03 09:21:03: INFO:     Application startup complete.
+2026-04-03 09:21:03: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:21:03: INFO:     Waiting for application shutdown.
+2026-04-03 09:21:03: INFO:     Application shutdown complete.
+2026-04-03 09:21:08: 2026-04-03 09:21:08.094 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'Tell me about the cargo handled by VPA.' for session 'session_35hoi5fvr'
+2026-04-03 09:21:08: 2026-04-03 09:21:08.094 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_35hoi5fvr'
+2026-04-03 09:21:08: 2026-04-03 09:21:08.094 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'Tell me about the cargo handled by VPA.' (alpha=0.7)
+2026-04-03 09:21:08: 2026-04-03 09:21:08.359 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:21:09: 2026-04-03 09:21:09.353 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_35hoi5fvr. History size: 1
+2026-04-03 09:21:09: 2026-04-03 09:21:09.353 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_35hoi5fvr. History size: 2
+2026-04-03 09:21:17: 2026-04-03 09:21:17.394 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:21:18: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:21:20: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:21:20: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2900.23it/s]
+2026-04-03 09:21:21: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:21:21: Key                     | Status     |  | 
+2026-04-03 09:21:21: ------------------------+------------+--+-
+2026-04-03 09:21:21: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:21:21: 
+2026-04-03 09:21:21: [3mNotes:
+2026-04-03 09:21:21: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:21:22: 2026-04-03 09:21:22.761 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:21:22: 2026-04-03 09:21:22.763 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:21:22: 2026-04-03 09:21:22.763 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:21:22: 2026-04-03 09:21:22.771 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:21:22: 2026-04-03 09:21:22.878 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:21:24: 2026-04-03 09:21:24.213 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:21:24: INFO:     Started server process [19912]
+2026-04-03 09:21:24: INFO:     Waiting for application startup.
+2026-04-03 09:21:24: INFO:     Application startup complete.
+2026-04-03 09:21:24: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:21:24: INFO:     Waiting for application shutdown.
+2026-04-03 09:21:24: INFO:     Application shutdown complete.
+2026-04-03 09:22:14: WARNING:  Invalid HTTP request received.
+2026-04-03 09:22:14: WARNING:  Invalid HTTP request received.
+2026-04-03 09:22:55: 2026-04-03 09:22:55.613 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:22:57: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:22:59: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:22:59: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5391.73it/s]
+2026-04-03 09:22:59: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:22:59: Key                     | Status     |  | 
+2026-04-03 09:22:59: ------------------------+------------+--+-
+2026-04-03 09:22:59: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:22:59: 
+2026-04-03 09:22:59: [3mNotes:
+2026-04-03 09:22:59: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:23:00: 2026-04-03 09:23:00.971 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:23:00: 2026-04-03 09:23:00.989 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:23:01: 2026-04-03 09:23:01.005 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:23:01: 2026-04-03 09:23:01.024 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:23:01: 2026-04-03 09:23:01.114 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:23:02: 2026-04-03 09:23:02.121 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:23:02: INFO:     Started server process [12636]
+2026-04-03 09:23:02: INFO:     Waiting for application startup.
+2026-04-03 09:23:02: INFO:     Application startup complete.
+2026-04-03 09:23:02: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:23:02: INFO:     Waiting for application shutdown.
+2026-04-03 09:23:02: INFO:     Application shutdown complete.
+2026-04-03 09:23:14: 2026-04-03 09:23:14.915 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:23:16: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:23:18: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:23:18: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2919.99it/s]
+2026-04-03 09:23:18: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:23:18: Key                     | Status     |  | 
+2026-04-03 09:23:18: ------------------------+------------+--+-
+2026-04-03 09:23:18: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:23:18: 
+2026-04-03 09:23:18: [3mNotes:
+2026-04-03 09:23:18: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:23:20: 2026-04-03 09:23:20.186 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:23:20: 2026-04-03 09:23:20.186 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:23:20: 2026-04-03 09:23:20.190 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:23:20: 2026-04-03 09:23:20.192 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:23:20: 2026-04-03 09:23:20.288 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:23:21: 2026-04-03 09:23:21.277 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:23:21: INFO:     Started server process [5756]
+2026-04-03 09:23:21: INFO:     Waiting for application startup.
+2026-04-03 09:23:21: INFO:     Application startup complete.
+2026-04-03 09:23:21: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:23:21: INFO:     Waiting for application shutdown.
+2026-04-03 09:23:21: INFO:     Application shutdown complete.
+2026-04-03 09:23:33: 2026-04-03 09:23:33.536 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:23:34: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:23:37: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:23:37: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5238.24it/s]
+2026-04-03 09:23:37: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:23:37: Key                     | Status     |  | 
+2026-04-03 09:23:37: ------------------------+------------+--+-
+2026-04-03 09:23:37: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:23:37: 
+2026-04-03 09:23:37: [3mNotes:
+2026-04-03 09:23:37: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:23:39: 2026-04-03 09:23:39.083 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:23:39: 2026-04-03 09:23:39.085 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:23:39: 2026-04-03 09:23:39.085 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:23:39: 2026-04-03 09:23:39.087 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:23:39: 2026-04-03 09:23:39.176 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:23:40: 2026-04-03 09:23:40.321 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:23:40: INFO:     Started server process [12804]
+2026-04-03 09:23:40: INFO:     Waiting for application startup.
+2026-04-03 09:23:40: INFO:     Application startup complete.
+2026-04-03 09:23:40: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:23:40: INFO:     Waiting for application shutdown.
+2026-04-03 09:23:40: INFO:     Application shutdown complete.
+2026-04-03 09:23:52: 2026-04-03 09:23:52.787 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:23:54: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:23:56: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:23:56: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5248.25it/s]
+2026-04-03 09:23:56: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:23:56: Key                     | Status     |  | 
+2026-04-03 09:23:56: ------------------------+------------+--+-
+2026-04-03 09:23:56: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:23:56: 
+2026-04-03 09:23:56: [3mNotes:
+2026-04-03 09:23:56: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:23:58: 2026-04-03 09:23:58.219 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:23:58: 2026-04-03 09:23:58.220 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:23:58: 2026-04-03 09:23:58.222 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:23:58: 2026-04-03 09:23:58.223 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:23:58: 2026-04-03 09:23:58.372 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:23:59: 2026-04-03 09:23:59.377 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:23:59: INFO:     Started server process [22952]
+2026-04-03 09:23:59: INFO:     Waiting for application startup.
+2026-04-03 09:23:59: INFO:     Application startup complete.
+2026-04-03 09:23:59: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:23:59: INFO:     Waiting for application shutdown.
+2026-04-03 09:23:59: INFO:     Application shutdown complete.
+2026-04-03 09:24:10: 2026-04-03 09:24:10.749 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:24:12: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:24:14: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:24:14: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4665.91it/s]
+2026-04-03 09:24:14: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:24:14: Key                     | Status     |  | 
+2026-04-03 09:24:14: ------------------------+------------+--+-
+2026-04-03 09:24:14: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:24:14: 
+2026-04-03 09:24:14: [3mNotes:
+2026-04-03 09:24:14: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:24:16: 2026-04-03 09:24:16.197 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:24:16: 2026-04-03 09:24:16.199 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:24:16: 2026-04-03 09:24:16.199 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:24:16: 2026-04-03 09:24:16.201 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:24:16: 2026-04-03 09:24:16.285 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:24:17: 2026-04-03 09:24:17.236 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:24:17: INFO:     Started server process [16920]
+2026-04-03 09:24:17: INFO:     Waiting for application startup.
+2026-04-03 09:24:17: INFO:     Application startup complete.
+2026-04-03 09:24:17: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:24:17: INFO:     Waiting for application shutdown.
+2026-04-03 09:24:17: INFO:     Application shutdown complete.
+2026-04-03 09:24:24: 2026-04-03 09:24:24.749 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'Tell me about the cargo handled by VPA.' for session 'session_3o7w2pkdf'
+2026-04-03 09:24:24: 2026-04-03 09:24:24.749 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_3o7w2pkdf'
+2026-04-03 09:24:24: 2026-04-03 09:24:24.749 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'Tell me about the cargo handled by VPA.' (alpha=0.7)
+2026-04-03 09:24:24: 2026-04-03 09:24:24.921 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:24:25: 2026-04-03 09:24:25.590 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_3o7w2pkdf. History size: 1
+2026-04-03 09:24:25: 2026-04-03 09:24:25.590 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_3o7w2pkdf. History size: 2
+2026-04-03 09:24:29: 2026-04-03 09:24:29.674 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:24:31: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:24:33: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:24:33: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5737.53it/s]
+2026-04-03 09:24:33: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:24:33: Key                     | Status     |  | 
+2026-04-03 09:24:33: ------------------------+------------+--+-
+2026-04-03 09:24:33: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:24:33: 
+2026-04-03 09:24:33: [3mNotes:
+2026-04-03 09:24:33: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:24:35: 2026-04-03 09:24:35.384 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:24:35: 2026-04-03 09:24:35.384 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:24:35: 2026-04-03 09:24:35.386 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:24:35: 2026-04-03 09:24:35.388 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:24:35: 2026-04-03 09:24:35.445 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:24:36: 2026-04-03 09:24:36.620 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:24:36: INFO:     Started server process [9540]
+2026-04-03 09:24:36: INFO:     Waiting for application startup.
+2026-04-03 09:24:36: INFO:     Application startup complete.
+2026-04-03 09:24:36: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:24:36: INFO:     Waiting for application shutdown.
+2026-04-03 09:24:36: INFO:     Application shutdown complete.
+2026-04-03 09:24:48: 2026-04-03 09:24:48.186 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:24:49: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:24:51: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:24:51: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5543.23it/s]
+2026-04-03 09:24:51: 
+2026-04-03 09:24:51: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:24:51: Key                     | Status     |  | 
+2026-04-03 09:24:51: ------------------------+------------+--+-
+2026-04-03 09:24:51: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:24:51: 
+2026-04-03 09:24:51: [3mNotes:
+2026-04-03 09:24:51: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:24:53: 2026-04-03 09:24:53.827 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:24:53: 2026-04-03 09:24:53.829 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:24:53: 2026-04-03 09:24:53.829 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:24:53: 2026-04-03 09:24:53.832 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:24:53: 2026-04-03 09:24:53.894 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:24:54: 2026-04-03 09:24:54.956 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:24:55: INFO:     Started server process [18884]
+2026-04-03 09:24:55: INFO:     Waiting for application startup.
+2026-04-03 09:24:55: INFO:     Application startup complete.
+2026-04-03 09:24:55: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:24:55: INFO:     Waiting for application shutdown.
+2026-04-03 09:24:55: INFO:     Application shutdown complete.
+2026-04-03 09:25:06: 2026-04-03 09:25:06.544 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:25:07: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:25:09: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:25:09: Loading weights: 100%|##########| 199/199 [00:00<00:00, 8143.56it/s]
+2026-04-03 09:25:09: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:25:09: Key                     | Status     |  | 
+2026-04-03 09:25:09: ------------------------+------------+--+-
+2026-04-03 09:25:09: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:25:09: 
+2026-04-03 09:25:09: [3mNotes:
+2026-04-03 09:25:09: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:25:23: 2026-04-03 09:25:23.118 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:25:24: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:25:26: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:25:26: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4306.51it/s]
+2026-04-03 09:25:26: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:25:26: Key                     | Status     |  | 
+2026-04-03 09:25:26: ------------------------+------------+--+-
+2026-04-03 09:25:26: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:25:26: 
+2026-04-03 09:25:26: [3mNotes:
+2026-04-03 09:25:26: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:25:28: 2026-04-03 09:25:28.118 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:25:28: 2026-04-03 09:25:28.120 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:25:28: 2026-04-03 09:25:28.120 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:25:28: 2026-04-03 09:25:28.122 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:25:28: 2026-04-03 09:25:28.231 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:25:29: 2026-04-03 09:25:29.126 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:25:29: INFO:     Started server process [16136]
+2026-04-03 09:25:29: INFO:     Waiting for application startup.
+2026-04-03 09:25:29: INFO:     Application startup complete.
+2026-04-03 09:25:29: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:25:29: INFO:     Waiting for application shutdown.
+2026-04-03 09:25:29: INFO:     Application shutdown complete.
+2026-04-03 09:25:40: 2026-04-03 09:25:40.736 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:25:42: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:25:54: 2026-04-03 09:25:54.949 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:25:56: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:26:08: 2026-04-03 09:26:08.653 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:26:21: 2026-04-03 09:26:21.435 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:26:33: 2026-04-03 09:26:33.226 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:26:35: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:26:36: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:26:36: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5298.33it/s]
+2026-04-03 09:26:36: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:26:36: Key                     | Status     |  | 
+2026-04-03 09:26:36: ------------------------+------------+--+-
+2026-04-03 09:26:36: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:26:36: 
+2026-04-03 09:26:36: [3mNotes:
+2026-04-03 09:26:36: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:26:38: 2026-04-03 09:26:38.170 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:26:38: 2026-04-03 09:26:38.171 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:26:38: 2026-04-03 09:26:38.171 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:26:38: 2026-04-03 09:26:38.171 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:26:38: 2026-04-03 09:26:38.244 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:26:39: 2026-04-03 09:26:39.101 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:26:39: INFO:     Started server process [13148]
+2026-04-03 09:26:39: INFO:     Waiting for application startup.
+2026-04-03 09:26:39: INFO:     Application startup complete.
+2026-04-03 09:26:39: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:26:39: INFO:     Waiting for application shutdown.
+2026-04-03 09:26:39: INFO:     Application shutdown complete.
+2026-04-03 09:26:42: 2026-04-03 09:26:42.485 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'What is the Master Plan of VPT?' for session 'session_649hifaai'
+2026-04-03 09:26:42: 2026-04-03 09:26:42.485 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:26:42: 2026-04-03 09:26:42.485 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'What is the Master Plan of VPT?' (alpha=0.7)
+2026-04-03 09:26:42: 2026-04-03 09:26:42.657 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:26:43: 2026-04-03 09:26:43.513 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 1
+2026-04-03 09:26:43: 2026-04-03 09:26:43.513 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 2
+2026-04-03 09:26:56: 2026-04-03 09:26:56.013 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:26:56: 2026-04-03 09:26:56.078 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'total area of the land' for session 'session_649hifaai'
+2026-04-03 09:26:56: 2026-04-03 09:26:56.078 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:26:56: 2026-04-03 09:26:56.078 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'total area of the land' (alpha=0.7)
+2026-04-03 09:26:56: 2026-04-03 09:26:56.232 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:26:57: 2026-04-03 09:26:57.199 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 3
+2026-04-03 09:26:57: 2026-04-03 09:26:57.199 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 4
+2026-04-03 09:26:58: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:26:59: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:26:59: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4924.98it/s]
+2026-04-03 09:26:59: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:26:59: Key                     | Status     |  | 
+2026-04-03 09:26:59: ------------------------+------------+--+-
+2026-04-03 09:26:59: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:26:59: 
+2026-04-03 09:26:59: [3mNotes:
+2026-04-03 09:26:59: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:27:01: 2026-04-03 09:27:01.310 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:27:01: 2026-04-03 09:27:01.312 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:27:01: 2026-04-03 09:27:01.312 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:27:01: 2026-04-03 09:27:01.314 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:27:01: 2026-04-03 09:27:01.395 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:27:02: 2026-04-03 09:27:02.358 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:27:02: INFO:     Started server process [14324]
+2026-04-03 09:27:02: INFO:     Waiting for application startup.
+2026-04-03 09:27:02: INFO:     Application startup complete.
+2026-04-03 09:27:02: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:27:02: INFO:     Waiting for application shutdown.
+2026-04-03 09:27:02: INFO:     Application shutdown complete.
+2026-04-03 09:27:15: 2026-04-03 09:27:15.652 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:27:18: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:27:19: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:27:19: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2557.69it/s]
+2026-04-03 09:27:19: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:27:19: Key                     | Status     |  | 
+2026-04-03 09:27:19: ------------------------+------------+--+-
+2026-04-03 09:27:19: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:27:19: 
+2026-04-03 09:27:19: [3mNotes:
+2026-04-03 09:27:19: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:27:20: 2026-04-03 09:27:20.902 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:27:20: 2026-04-03 09:27:20.905 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:27:20: 2026-04-03 09:27:20.905 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:27:20: 2026-04-03 09:27:20.907 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:27:20: 2026-04-03 09:27:20.972 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:27:22: 2026-04-03 09:27:22.003 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:27:22: INFO:     Started server process [19884]
+2026-04-03 09:27:22: INFO:     Waiting for application startup.
+2026-04-03 09:27:22: INFO:     Application startup complete.
+2026-04-03 09:27:22: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:27:22: INFO:     Waiting for application shutdown.
+2026-04-03 09:27:22: INFO:     Application shutdown complete.
+2026-04-03 09:27:24: 2026-04-03 09:27:24.817 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'total plot assigned for tm_pots' for session 'session_3o7w2pkdf'
+2026-04-03 09:27:24: 2026-04-03 09:27:24.817 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_3o7w2pkdf'
+2026-04-03 09:27:24: 2026-04-03 09:27:24.817 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'total plot assigned for tm_pots' (alpha=0.7)
+2026-04-03 09:27:24: 2026-04-03 09:27:24.923 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:27:26: 2026-04-03 09:27:26.566 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_3o7w2pkdf. History size: 3
+2026-04-03 09:27:26: 2026-04-03 09:27:26.566 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_3o7w2pkdf. History size: 4
+2026-04-03 09:27:37: 2026-04-03 09:27:37.513 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:27:39: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:27:41: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:27:41: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2063.05it/s]
+2026-04-03 09:27:41: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:27:41: Key                     | Status     |  | 
+2026-04-03 09:27:41: ------------------------+------------+--+-
+2026-04-03 09:27:41: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:27:41: 
+2026-04-03 09:27:41: [3mNotes:
+2026-04-03 09:27:41: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:27:43: 2026-04-03 09:27:43.096 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:27:43: 2026-04-03 09:27:43.097 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:27:43: 2026-04-03 09:27:43.097 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:27:43: 2026-04-03 09:27:43.100 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:27:43: 2026-04-03 09:27:43.182 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:27:44: 2026-04-03 09:27:44.028 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:27:44: 2026-04-03 09:27:44.090 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'total plot assigned for tm_plots' for session 'session_3o7w2pkdf'
+2026-04-03 09:27:44: 2026-04-03 09:27:44.090 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_3o7w2pkdf'
+2026-04-03 09:27:44: 2026-04-03 09:27:44.090 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'total plot assigned for tm_plots' (alpha=0.7)
+2026-04-03 09:27:44: INFO:     Started server process [21932]
+2026-04-03 09:27:44: INFO:     Waiting for application startup.
+2026-04-03 09:27:44: INFO:     Application startup complete.
+2026-04-03 09:27:44: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:27:44: INFO:     Waiting for application shutdown.
+2026-04-03 09:27:44: INFO:     Application shutdown complete.
+2026-04-03 09:27:44: 2026-04-03 09:27:44.221 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:27:44: 2026-04-03 09:27:44.823 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_3o7w2pkdf. History size: 5
+2026-04-03 09:27:44: 2026-04-03 09:27:44.823 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_3o7w2pkdf. History size: 6
+2026-04-03 09:27:56: 2026-04-03 09:27:56.392 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:27:59: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:27:59: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:27:59: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5076.80it/s]
+2026-04-03 09:27:59: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:27:59: Key                     | Status     |  | 
+2026-04-03 09:27:59: ------------------------+------------+--+-
+2026-04-03 09:27:59: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:27:59: 
+2026-04-03 09:27:59: [3mNotes:
+2026-04-03 09:27:59: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:28:01: 2026-04-03 09:28:01.703 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:28:01: 2026-04-03 09:28:01.703 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:28:01: 2026-04-03 09:28:01.703 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:28:01: 2026-04-03 09:28:01.709 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:28:01: 2026-04-03 09:28:01.811 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:28:02: 2026-04-03 09:28:02.799 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:28:02: INFO:     Started server process [17092]
+2026-04-03 09:28:02: INFO:     Waiting for application startup.
+2026-04-03 09:28:02: INFO:     Application startup complete.
+2026-04-03 09:28:02: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:28:02: INFO:     Waiting for application shutdown.
+2026-04-03 09:28:02: INFO:     Application shutdown complete.
+2026-04-03 09:28:23: 2026-04-03 09:28:23.309 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:28:26: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:28:26: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:28:27: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3963.99it/s]
+2026-04-03 09:28:27: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:28:27: Key                     | Status     |  | 
+2026-04-03 09:28:27: ------------------------+------------+--+-
+2026-04-03 09:28:27: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:28:27: 
+2026-04-03 09:28:27: [3mNotes:
+2026-04-03 09:28:27: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:28:29: 2026-04-03 09:28:29.461 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:28:29: 2026-04-03 09:28:29.465 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:28:29: 2026-04-03 09:28:29.470 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:28:29: 2026-04-03 09:28:29.476 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:28:29: 2026-04-03 09:28:29.636 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:28:30: 2026-04-03 09:28:30.708 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:28:30: INFO:     Started server process [23532]
+2026-04-03 09:28:30: INFO:     Waiting for application startup.
+2026-04-03 09:28:30: INFO:     Application startup complete.
+2026-04-03 09:28:30: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:28:30: INFO:     Waiting for application shutdown.
+2026-04-03 09:28:30: INFO:     Application shutdown complete.
+2026-04-03 09:28:47: 2026-04-03 09:28:47.171 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:28:49: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:28:50: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:28:50: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3899.96it/s]
+2026-04-03 09:28:50: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:28:50: Key                     | Status     |  | 
+2026-04-03 09:28:50: ------------------------+------------+--+-
+2026-04-03 09:28:50: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:28:50: 
+2026-04-03 09:28:50: [3mNotes:
+2026-04-03 09:28:50: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:28:52: 2026-04-03 09:28:52.325 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:28:52: 2026-04-03 09:28:52.326 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:28:52: 2026-04-03 09:28:52.326 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:28:52: 2026-04-03 09:28:52.330 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:28:52: 2026-04-03 09:28:52.427 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:28:53: 2026-04-03 09:28:53.479 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:28:53: INFO:     Started server process [11612]
+2026-04-03 09:28:53: INFO:     Waiting for application startup.
+2026-04-03 09:28:53: INFO:     Application startup complete.
+2026-04-03 09:28:53: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:28:53: INFO:     Waiting for application shutdown.
+2026-04-03 09:28:53: INFO:     Application shutdown complete.
+2026-04-03 09:29:06: 2026-04-03 09:29:06.549 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:29:08: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:29:09: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:29:10: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3392.24it/s]
+2026-04-03 09:29:10: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:29:10: Key                     | Status     |  | 
+2026-04-03 09:29:10: ------------------------+------------+--+-
+2026-04-03 09:29:10: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:29:10: 
+2026-04-03 09:29:10: [3mNotes:
+2026-04-03 09:29:10: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:29:11: 2026-04-03 09:29:11.751 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:29:11: 2026-04-03 09:29:11.753 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:29:11: 2026-04-03 09:29:11.753 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:29:11: 2026-04-03 09:29:11.755 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:29:11: 2026-04-03 09:29:11.821 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:29:12: 2026-04-03 09:29:12.885 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:29:13: INFO:     Started server process [13392]
+2026-04-03 09:29:13: INFO:     Waiting for application startup.
+2026-04-03 09:29:13: INFO:     Application startup complete.
+2026-04-03 09:29:13: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:29:13: INFO:     Waiting for application shutdown.
+2026-04-03 09:29:13: INFO:     Application shutdown complete.
+2026-04-03 09:29:13: 2026-04-03 09:29:13.311 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'but according to me the total area is 7618 acre is this correct?' for session 'session_649hifaai'
+2026-04-03 09:29:13: 2026-04-03 09:29:13.311 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:29:13: 2026-04-03 09:29:13.311 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'but according to me the total area is 7618 acre is this correct?' (alpha=0.7)
+2026-04-03 09:29:13: 2026-04-03 09:29:13.513 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:29:13: 2026-04-03 09:29:13.890 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 5
+2026-04-03 09:29:13: 2026-04-03 09:29:13.890 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 6
+2026-04-03 09:29:25: 2026-04-03 09:29:25.097 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:29:26: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:29:28: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:29:28: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2042.10it/s]
+2026-04-03 09:29:28: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:29:28: Key                     | Status     |  | 
+2026-04-03 09:29:28: ------------------------+------------+--+-
+2026-04-03 09:29:28: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:29:28: 
+2026-04-03 09:29:28: [3mNotes:
+2026-04-03 09:29:28: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:29:30: 2026-04-03 09:29:30.401 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:29:30: 2026-04-03 09:29:30.403 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:29:30: 2026-04-03 09:29:30.403 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:29:30: 2026-04-03 09:29:30.406 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:29:30: 2026-04-03 09:29:30.502 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:29:31: 2026-04-03 09:29:31.536 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:29:31: INFO:     Started server process [1648]
+2026-04-03 09:29:31: INFO:     Waiting for application startup.
+2026-04-03 09:29:31: INFO:     Application startup complete.
+2026-04-03 09:29:31: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:29:31: INFO:     Waiting for application shutdown.
+2026-04-03 09:29:31: INFO:     Application shutdown complete.
+2026-04-03 09:29:44: 2026-04-03 09:29:44.988 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:29:46: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:29:48: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:29:48: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4012.55it/s]
+2026-04-03 09:29:48: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:29:48: Key                     | Status     |  | 
+2026-04-03 09:29:48: ------------------------+------------+--+-
+2026-04-03 09:29:48: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:29:48: 
+2026-04-03 09:29:48: [3mNotes:
+2026-04-03 09:29:48: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:29:50: 2026-04-03 09:29:50.064 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:29:50: 2026-04-03 09:29:50.068 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:29:50: 2026-04-03 09:29:50.069 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:29:50: 2026-04-03 09:29:50.074 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:29:50: 2026-04-03 09:29:50.185 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:29:51: 2026-04-03 09:29:51.177 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:29:51: INFO:     Started server process [15780]
+2026-04-03 09:29:51: INFO:     Waiting for application startup.
+2026-04-03 09:29:51: INFO:     Application startup complete.
+2026-04-03 09:29:51: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:29:51: INFO:     Waiting for application shutdown.
+2026-04-03 09:29:51: INFO:     Application shutdown complete.
+2026-04-03 09:30:05: 2026-04-03 09:30:05.403 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:30:08: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:30:09: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:30:09: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4285.81it/s]
+2026-04-03 09:30:09: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:30:09: Key                     | Status     |  | 
+2026-04-03 09:30:09: ------------------------+------------+--+-
+2026-04-03 09:30:09: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:30:09: 
+2026-04-03 09:30:09: [3mNotes:
+2026-04-03 09:30:09: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:30:11: 2026-04-03 09:30:11.227 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:30:11: 2026-04-03 09:30:11.229 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:30:11: 2026-04-03 09:30:11.229 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:30:11: 2026-04-03 09:30:11.231 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:30:11: 2026-04-03 09:30:11.329 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:30:12: 2026-04-03 09:30:12.419 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:30:12: INFO:     Started server process [13480]
+2026-04-03 09:30:12: INFO:     Waiting for application startup.
+2026-04-03 09:30:12: INFO:     Application startup complete.
+2026-04-03 09:30:12: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:30:12: INFO:     Waiting for application shutdown.
+2026-04-03 09:30:12: INFO:     Application shutdown complete.
+2026-04-03 09:30:25: 2026-04-03 09:30:25.821 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:30:26: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:30:29: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:30:29: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3715.21it/s]
+2026-04-03 09:30:29: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:30:29: Key                     | Status     |  | 
+2026-04-03 09:30:29: ------------------------+------------+--+-
+2026-04-03 09:30:29: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:30:29: 
+2026-04-03 09:30:29: [3mNotes:
+2026-04-03 09:30:29: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:30:30: 2026-04-03 09:30:30.895 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:30:30: 2026-04-03 09:30:30.897 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:30:30: 2026-04-03 09:30:30.897 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:30:30: 2026-04-03 09:30:30.902 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:30:30: 2026-04-03 09:30:30.996 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:30:31: 2026-04-03 09:30:31.942 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:30:32: INFO:     Started server process [2244]
+2026-04-03 09:30:32: INFO:     Waiting for application startup.
+2026-04-03 09:30:32: INFO:     Application startup complete.
+2026-04-03 09:30:32: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:30:32: INFO:     Waiting for application shutdown.
+2026-04-03 09:30:32: INFO:     Application shutdown complete.
+2026-04-03 09:30:44: 2026-04-03 09:30:44.627 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:30:46: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:30:48: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:30:48: Loading weights: 100%|##########| 199/199 [00:00<00:00, 6342.07it/s]
+2026-04-03 09:30:48: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:30:48: Key                     | Status     |  | 
+2026-04-03 09:30:48: ------------------------+------------+--+-
+2026-04-03 09:30:48: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:30:48: 
+2026-04-03 09:30:48: [3mNotes:
+2026-04-03 09:30:48: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:30:50: 2026-04-03 09:30:50.145 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:30:50: 2026-04-03 09:30:50.148 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:30:50: 2026-04-03 09:30:50.148 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:30:50: 2026-04-03 09:30:50.149 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:30:50: 2026-04-03 09:30:50.249 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:30:51: 2026-04-03 09:30:51.237 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:30:51: INFO:     Started server process [11376]
+2026-04-03 09:30:51: INFO:     Waiting for application startup.
+2026-04-03 09:30:51: INFO:     Application startup complete.
+2026-04-03 09:30:51: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:30:51: INFO:     Waiting for application shutdown.
+2026-04-03 09:30:51: INFO:     Application shutdown complete.
+2026-04-03 09:31:02: 2026-04-03 09:31:02.849 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:31:04: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:31:06: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:31:06: Loading weights:  77%|#######7  | 154/199 [00:00<00:00, 1501.19it/s]
+2026-04-03 09:31:06: Loading weights: 100%|##########| 199/199 [00:00<00:00, 1679.71it/s]
+2026-04-03 09:31:06: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:31:06: Key                     | Status     |  | 
+2026-04-03 09:31:06: ------------------------+------------+--+-
+2026-04-03 09:31:06: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:31:06: 
+2026-04-03 09:31:06: [3mNotes:
+2026-04-03 09:31:06: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:31:08: 2026-04-03 09:31:08.829 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:31:08: 2026-04-03 09:31:08.832 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:31:08: 2026-04-03 09:31:08.832 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:31:08: 2026-04-03 09:31:08.834 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:31:08: 2026-04-03 09:31:08.921 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:31:10: 2026-04-03 09:31:10.051 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:31:10: INFO:     Started server process [10444]
+2026-04-03 09:31:10: INFO:     Waiting for application startup.
+2026-04-03 09:31:10: INFO:     Application startup complete.
+2026-04-03 09:31:10: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:31:10: INFO:     Waiting for application shutdown.
+2026-04-03 09:31:10: INFO:     Application shutdown complete.
+2026-04-03 09:31:20: 2026-04-03 09:31:20.244 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'what is the geographic area of the district' for session 'session_649hifaai'
+2026-04-03 09:31:20: 2026-04-03 09:31:20.244 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:31:20: 2026-04-03 09:31:20.244 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'what is the geographic area of the district' (alpha=0.7)
+2026-04-03 09:31:20: 2026-04-03 09:31:20.393 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:31:21: 2026-04-03 09:31:21.307 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 7
+2026-04-03 09:31:21: 2026-04-03 09:31:21.307 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 8
+2026-04-03 09:31:23: 2026-04-03 09:31:23.569 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:31:25: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:31:26: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:31:27: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3162.74it/s]
+2026-04-03 09:31:27: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:31:27: Key                     | Status     |  | 
+2026-04-03 09:31:27: ------------------------+------------+--+-
+2026-04-03 09:31:27: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:31:27: 
+2026-04-03 09:31:27: [3mNotes:
+2026-04-03 09:31:27: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:31:28: 2026-04-03 09:31:28.810 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:31:28: 2026-04-03 09:31:28.813 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:31:28: 2026-04-03 09:31:28.814 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:31:28: 2026-04-03 09:31:28.815 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:31:28: 2026-04-03 09:31:28.934 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:31:29: 2026-04-03 09:31:29.839 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:31:30: INFO:     Started server process [21056]
+2026-04-03 09:31:30: INFO:     Waiting for application startup.
+2026-04-03 09:31:30: INFO:     Application startup complete.
+2026-04-03 09:31:30: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:31:30: INFO:     Waiting for application shutdown.
+2026-04-03 09:31:30: INFO:     Application shutdown complete.
+2026-04-03 09:31:42: 2026-04-03 09:31:42.550 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:31:43: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:31:45: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:31:45: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5521.19it/s]
+2026-04-03 09:31:45: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:31:45: Key                     | Status     |  | 
+2026-04-03 09:31:45: ------------------------+------------+--+-
+2026-04-03 09:31:45: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:31:45: 
+2026-04-03 09:31:45: [3mNotes:
+2026-04-03 09:31:45: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:31:47: 2026-04-03 09:31:47.577 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:31:47: 2026-04-03 09:31:47.578 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:31:47: 2026-04-03 09:31:47.578 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:31:47: 2026-04-03 09:31:47.581 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:31:47: 2026-04-03 09:31:47.647 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:31:48: 2026-04-03 09:31:48.499 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:31:48: INFO:     Started server process [16160]
+2026-04-03 09:31:48: INFO:     Waiting for application startup.
+2026-04-03 09:31:48: INFO:     Application startup complete.
+2026-04-03 09:31:48: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:31:48: INFO:     Waiting for application shutdown.
+2026-04-03 09:31:48: INFO:     Application shutdown complete.
+2026-04-03 09:31:59: 2026-04-03 09:31:59.913 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:32:01: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:32:02: 2026-04-03 09:32:02.324 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'which is the first project of this financial year' for session 'session_649hifaai'
+2026-04-03 09:32:02: 2026-04-03 09:32:02.324 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:32:02: 2026-04-03 09:32:02.324 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'which is the first project of this financial year' (alpha=0.7)
+2026-04-03 09:32:02: 2026-04-03 09:32:02.565 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:32:03: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:32:03: 2026-04-03 09:32:03.201 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 9
+2026-04-03 09:32:03: 2026-04-03 09:32:03.201 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 10
+2026-04-03 09:32:03: Loading weights: 100%|##########| 199/199 [00:00<00:00, 6187.94it/s]
+2026-04-03 09:32:03: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:32:03: Key                     | Status     |  | 
+2026-04-03 09:32:03: ------------------------+------------+--+-
+2026-04-03 09:32:03: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:32:03: 
+2026-04-03 09:32:03: [3mNotes:
+2026-04-03 09:32:03: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:32:04: 2026-04-03 09:32:04.953 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:32:04: 2026-04-03 09:32:04.953 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:32:04: 2026-04-03 09:32:04.955 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:32:04: 2026-04-03 09:32:04.956 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:32:05: 2026-04-03 09:32:05.020 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:32:06: 2026-04-03 09:32:06.011 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:32:06: INFO:     Started server process [18108]
+2026-04-03 09:32:06: INFO:     Waiting for application startup.
+2026-04-03 09:32:06: INFO:     Application startup complete.
+2026-04-03 09:32:06: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:32:06: INFO:     Waiting for application shutdown.
+2026-04-03 09:32:06: INFO:     Application shutdown complete.
+2026-04-03 09:32:18: 2026-04-03 09:32:18.147 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:32:19: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:32:21: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:32:21: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5190.20it/s]
+2026-04-03 09:32:21: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:32:21: Key                     | Status     |  | 
+2026-04-03 09:32:21: ------------------------+------------+--+-
+2026-04-03 09:32:21: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:32:21: 
+2026-04-03 09:32:21: [3mNotes:
+2026-04-03 09:32:21: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:32:23: 2026-04-03 09:32:23.877 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:32:23: 2026-04-03 09:32:23.879 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:32:23: 2026-04-03 09:32:23.879 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:32:23: 2026-04-03 09:32:23.883 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:32:23: 2026-04-03 09:32:23.971 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:32:25: 2026-04-03 09:32:25.036 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:32:25: INFO:     Started server process [6452]
+2026-04-03 09:32:25: INFO:     Waiting for application startup.
+2026-04-03 09:32:25: INFO:     Application startup complete.
+2026-04-03 09:32:25: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:32:25: INFO:     Waiting for application shutdown.
+2026-04-03 09:32:25: INFO:     Application shutdown complete.
+2026-04-03 09:32:37: 2026-04-03 09:32:37.440 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:32:39: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:32:40: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:32:40: Loading weights: 100%|##########| 199/199 [00:00<00:00, 6299.66it/s]
+2026-04-03 09:32:40: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:32:40: Key                     | Status     |  | 
+2026-04-03 09:32:40: ------------------------+------------+--+-
+2026-04-03 09:32:40: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:32:40: 
+2026-04-03 09:32:40: [3mNotes:
+2026-04-03 09:32:40: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:32:42: 2026-04-03 09:32:42.555 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:32:42: 2026-04-03 09:32:42.557 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:32:42: 2026-04-03 09:32:42.557 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:32:42: 2026-04-03 09:32:42.560 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:32:42: 2026-04-03 09:32:42.646 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:32:43: 2026-04-03 09:32:43.721 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:32:43: INFO:     Started server process [7172]
+2026-04-03 09:32:43: INFO:     Waiting for application startup.
+2026-04-03 09:32:43: INFO:     Application startup complete.
+2026-04-03 09:32:43: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:32:43: INFO:     Waiting for application shutdown.
+2026-04-03 09:32:43: INFO:     Application shutdown complete.
+2026-04-03 09:32:55: 2026-04-03 09:32:55.864 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:32:57: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:32:59: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:32:59: Loading weights: 100%|##########| 199/199 [00:00<00:00, 6625.18it/s]
+2026-04-03 09:32:59: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:32:59: Key                     | Status     |  | 
+2026-04-03 09:32:59: ------------------------+------------+--+-
+2026-04-03 09:32:59: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:32:59: 
+2026-04-03 09:32:59: [3mNotes:
+2026-04-03 09:32:59: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:33:01: 2026-04-03 09:33:01.035 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:33:01: 2026-04-03 09:33:01.037 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:33:01: 2026-04-03 09:33:01.037 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:33:01: 2026-04-03 09:33:01.039 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:33:01: 2026-04-03 09:33:01.128 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:33:02: 2026-04-03 09:33:02.149 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:33:02: INFO:     Started server process [22132]
+2026-04-03 09:33:02: INFO:     Waiting for application startup.
+2026-04-03 09:33:02: INFO:     Application startup complete.
+2026-04-03 09:33:02: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:33:02: INFO:     Waiting for application shutdown.
+2026-04-03 09:33:02: INFO:     Application shutdown complete.
+2026-04-03 09:33:14: 2026-04-03 09:33:14.440 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:33:16: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:33:17: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:33:17: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4172.10it/s]
+2026-04-03 09:33:17: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:33:17: Key                     | Status     |  | 
+2026-04-03 09:33:17: ------------------------+------------+--+-
+2026-04-03 09:33:17: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:33:17: 
+2026-04-03 09:33:17: [3mNotes:
+2026-04-03 09:33:17: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:33:19: 2026-04-03 09:33:19.784 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:33:19: 2026-04-03 09:33:19.785 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:33:19: 2026-04-03 09:33:19.785 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:33:19: 2026-04-03 09:33:19.787 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:33:19: 2026-04-03 09:33:19.878 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:33:20: 2026-04-03 09:33:20.853 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:33:20: INFO:     Started server process [23492]
+2026-04-03 09:33:20: INFO:     Waiting for application startup.
+2026-04-03 09:33:20: INFO:     Application startup complete.
+2026-04-03 09:33:20: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:33:20: INFO:     Waiting for application shutdown.
+2026-04-03 09:33:20: INFO:     Application shutdown complete.
+2026-04-03 09:33:23: 2026-04-03 09:33:23.381 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'storage facility of the gangawaram prt' for session 'session_649hifaai'
+2026-04-03 09:33:23: 2026-04-03 09:33:23.381 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:33:23: 2026-04-03 09:33:23.381 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'storage facility of the gangawaram prt' (alpha=0.7)
+2026-04-03 09:33:23: 2026-04-03 09:33:23.515 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:33:24: 2026-04-03 09:33:24.279 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 11
+2026-04-03 09:33:24: 2026-04-03 09:33:24.285 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 12
+2026-04-03 09:33:32: 2026-04-03 09:33:32.873 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:33:34: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:33:36: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:33:36: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4709.80it/s]
+2026-04-03 09:33:36: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:33:36: Key                     | Status     |  | 
+2026-04-03 09:33:36: ------------------------+------------+--+-
+2026-04-03 09:33:36: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:33:36: 
+2026-04-03 09:33:36: [3mNotes:
+2026-04-03 09:33:36: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:33:38: 2026-04-03 09:33:38.033 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:33:38: 2026-04-03 09:33:38.035 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:33:38: 2026-04-03 09:33:38.035 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:33:38: 2026-04-03 09:33:38.037 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:33:38: 2026-04-03 09:33:38.100 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:33:39: 2026-04-03 09:33:39.051 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:33:39: INFO:     Started server process [9028]
+2026-04-03 09:33:39: INFO:     Waiting for application startup.
+2026-04-03 09:33:39: INFO:     Application startup complete.
+2026-04-03 09:33:39: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:33:39: INFO:     Waiting for application shutdown.
+2026-04-03 09:33:39: INFO:     Application shutdown complete.
+2026-04-03 09:33:51: 2026-04-03 09:33:51.777 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:33:55: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:33:55: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4442.76it/s]
+2026-04-03 09:33:55: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:33:55: Key                     | Status     |  | 
+2026-04-03 09:33:55: ------------------------+------------+--+-
+2026-04-03 09:33:55: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:33:55: 
+2026-04-03 09:33:55: [3mNotes:
+2026-04-03 09:33:55: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:33:55: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:33:56: 2026-04-03 09:33:56.816 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:33:56: 2026-04-03 09:33:56.819 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:33:56: 2026-04-03 09:33:56.819 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:33:56: 2026-04-03 09:33:56.821 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:33:56: 2026-04-03 09:33:56.908 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:33:57: 2026-04-03 09:33:57.939 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:33:58: INFO:     Started server process [12664]
+2026-04-03 09:33:58: INFO:     Waiting for application startup.
+2026-04-03 09:33:58: INFO:     Application startup complete.
+2026-04-03 09:33:58: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:33:58: INFO:     Waiting for application shutdown.
+2026-04-03 09:33:58: INFO:     Application shutdown complete.
+2026-04-03 09:34:10: 2026-04-03 09:34:10.066 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:34:11: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:34:13: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:34:13: Loading weights: 100%|##########| 199/199 [00:00<00:00, 6570.68it/s]
+2026-04-03 09:34:13: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:34:13: Key                     | Status     |  | 
+2026-04-03 09:34:13: ------------------------+------------+--+-
+2026-04-03 09:34:13: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:34:13: 
+2026-04-03 09:34:13: [3mNotes:
+2026-04-03 09:34:13: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:34:15: 2026-04-03 09:34:15.712 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:34:15: 2026-04-03 09:34:15.713 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:34:15: 2026-04-03 09:34:15.715 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:34:15: 2026-04-03 09:34:15.716 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:34:15: 2026-04-03 09:34:15.810 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:34:16: 2026-04-03 09:34:16.727 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:34:16: INFO:     Started server process [19624]
+2026-04-03 09:34:16: INFO:     Waiting for application startup.
+2026-04-03 09:34:16: INFO:     Application startup complete.
+2026-04-03 09:34:16: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:34:16: INFO:     Waiting for application shutdown.
+2026-04-03 09:34:16: INFO:     Application shutdown complete.
+2026-04-03 09:34:23: 2026-04-03 09:34:23.877 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'capacity ofthe paradip port' for session 'session_649hifaai'
+2026-04-03 09:34:23: 2026-04-03 09:34:23.877 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:34:23: 2026-04-03 09:34:23.877 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'capacity ofthe paradip port' (alpha=0.7)
+2026-04-03 09:34:24: 2026-04-03 09:34:24.058 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:34:24: 2026-04-03 09:34:24.869 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 13
+2026-04-03 09:34:24: 2026-04-03 09:34:24.869 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 14
+2026-04-03 09:34:29: 2026-04-03 09:34:29.979 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:34:32: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:34:33: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:34:33: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4531.23it/s]
+2026-04-03 09:34:33: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:34:33: Key                     | Status     |  | 
+2026-04-03 09:34:33: ------------------------+------------+--+-
+2026-04-03 09:34:33: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:34:33: 
+2026-04-03 09:34:33: [3mNotes:
+2026-04-03 09:34:33: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:34:35: 2026-04-03 09:34:35.669 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:34:35: 2026-04-03 09:34:35.671 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:34:35: 2026-04-03 09:34:35.671 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:34:35: 2026-04-03 09:34:35.673 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:34:35: 2026-04-03 09:34:35.769 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:34:36: 2026-04-03 09:34:36.721 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:34:36: INFO:     Started server process [21652]
+2026-04-03 09:34:36: INFO:     Waiting for application startup.
+2026-04-03 09:34:36: INFO:     Application startup complete.
+2026-04-03 09:34:36: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:34:36: INFO:     Waiting for application shutdown.
+2026-04-03 09:34:36: INFO:     Application shutdown complete.
+2026-04-03 09:34:49: 2026-04-03 09:34:49.149 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:34:50: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:34:52: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:34:52: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2648.70it/s]
+2026-04-03 09:34:52: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:34:52: Key                     | Status     |  | 
+2026-04-03 09:34:52: ------------------------+------------+--+-
+2026-04-03 09:34:52: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:34:52: 
+2026-04-03 09:34:52: [3mNotes:
+2026-04-03 09:34:52: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:34:54: 2026-04-03 09:34:54.339 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:34:54: 2026-04-03 09:34:54.341 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:34:54: 2026-04-03 09:34:54.343 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:34:54: 2026-04-03 09:34:54.344 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:34:54: 2026-04-03 09:34:54.433 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:34:55: 2026-04-03 09:34:55.534 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:34:55: INFO:     Started server process [12924]
+2026-04-03 09:34:55: INFO:     Waiting for application startup.
+2026-04-03 09:34:55: INFO:     Application startup complete.
+2026-04-03 09:34:55: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:34:55: INFO:     Waiting for application shutdown.
+2026-04-03 09:34:55: INFO:     Application shutdown complete.
+2026-04-03 09:35:00: 2026-04-03 09:35:00.411 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'total capacity of the VPA port' for session 'session_649hifaai'
+2026-04-03 09:35:00: 2026-04-03 09:35:00.411 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:35:00: 2026-04-03 09:35:00.411 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'total capacity of the VPA port' (alpha=0.7)
+2026-04-03 09:35:00: 2026-04-03 09:35:00.544 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:35:01: 2026-04-03 09:35:01.312 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 15
+2026-04-03 09:35:01: 2026-04-03 09:35:01.312 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 16
+2026-04-03 09:35:08: 2026-04-03 09:35:08.746 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:35:10: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:35:11: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:35:11: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4424.35it/s]
+2026-04-03 09:35:11: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:35:11: Key                     | Status     |  | 
+2026-04-03 09:35:11: ------------------------+------------+--+-
+2026-04-03 09:35:11: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:35:11: 
+2026-04-03 09:35:11: [3mNotes:
+2026-04-03 09:35:11: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:35:13: 2026-04-03 09:35:13.713 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:35:13: 2026-04-03 09:35:13.713 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:35:13: 2026-04-03 09:35:13.715 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:35:13: 2026-04-03 09:35:13.717 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:35:13: 2026-04-03 09:35:13.807 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:35:14: 2026-04-03 09:35:14.858 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:35:14: INFO:     Started server process [14380]
+2026-04-03 09:35:14: INFO:     Waiting for application startup.
+2026-04-03 09:35:14: INFO:     Application startup complete.
+2026-04-03 09:35:14: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:35:14: INFO:     Waiting for application shutdown.
+2026-04-03 09:35:14: INFO:     Application shutdown complete.
+2026-04-03 09:35:29: 2026-04-03 09:35:29.490 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:35:30: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:35:32: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:35:32: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3692.61it/s]
+2026-04-03 09:35:32: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:35:32: Key                     | Status     |  | 
+2026-04-03 09:35:32: ------------------------+------------+--+-
+2026-04-03 09:35:32: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:35:32: 
+2026-04-03 09:35:32: [3mNotes:
+2026-04-03 09:35:32: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:35:34: 2026-04-03 09:35:34.689 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:35:34: 2026-04-03 09:35:34.692 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:35:34: 2026-04-03 09:35:34.693 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:35:34: 2026-04-03 09:35:34.694 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:35:34: 2026-04-03 09:35:34.782 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:35:35: 2026-04-03 09:35:35.713 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:35:35: INFO:     Started server process [9012]
+2026-04-03 09:35:35: INFO:     Waiting for application startup.
+2026-04-03 09:35:35: INFO:     Application startup complete.
+2026-04-03 09:35:35: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:35:35: INFO:     Waiting for application shutdown.
+2026-04-03 09:35:35: INFO:     Application shutdown complete.
+2026-04-03 09:35:48: 2026-04-03 09:35:48.780 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:35:48: 2026-04-03 09:35:48.854 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'due to paradip port what are the risk to VPA port' for session 'session_649hifaai'
+2026-04-03 09:35:48: 2026-04-03 09:35:48.854 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:35:48: 2026-04-03 09:35:48.854 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'due to paradip port what are the risk to VPA port' (alpha=0.7)
+2026-04-03 09:35:49: 2026-04-03 09:35:49.028 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:35:49: 2026-04-03 09:35:49.803 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 17
+2026-04-03 09:35:49: 2026-04-03 09:35:49.803 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 18
+2026-04-03 09:35:51: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:35:52: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:35:52: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2393.97it/s]
+2026-04-03 09:35:52: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:35:52: Key                     | Status     |  | 
+2026-04-03 09:35:52: ------------------------+------------+--+-
+2026-04-03 09:35:52: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:35:52: 
+2026-04-03 09:35:52: [3mNotes:
+2026-04-03 09:35:52: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:35:54: 2026-04-03 09:35:54.567 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:35:54: 2026-04-03 09:35:54.570 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:35:54: 2026-04-03 09:35:54.570 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:35:54: 2026-04-03 09:35:54.572 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:35:54: 2026-04-03 09:35:54.658 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:35:55: 2026-04-03 09:35:55.758 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:35:55: INFO:     Started server process [13424]
+2026-04-03 09:35:55: INFO:     Waiting for application startup.
+2026-04-03 09:35:55: INFO:     Application startup complete.
+2026-04-03 09:35:55: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:35:55: INFO:     Waiting for application shutdown.
+2026-04-03 09:35:55: INFO:     Application shutdown complete.
+2026-04-03 09:36:09: 2026-04-03 09:36:09.119 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:36:10: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:36:12: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:36:12: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5553.82it/s]
+2026-04-03 09:36:12: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:36:12: Key                     | Status     |  | 
+2026-04-03 09:36:12: ------------------------+------------+--+-
+2026-04-03 09:36:12: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:36:12: 
+2026-04-03 09:36:12: [3mNotes:
+2026-04-03 09:36:12: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:36:14: 2026-04-03 09:36:14.789 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:36:14: 2026-04-03 09:36:14.791 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:36:14: 2026-04-03 09:36:14.791 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:36:14: 2026-04-03 09:36:14.794 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:36:14: 2026-04-03 09:36:14.890 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:36:16: 2026-04-03 09:36:16.049 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:36:16: INFO:     Started server process [20108]
+2026-04-03 09:36:16: INFO:     Waiting for application startup.
+2026-04-03 09:36:16: INFO:     Application startup complete.
+2026-04-03 09:36:16: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:36:16: INFO:     Waiting for application shutdown.
+2026-04-03 09:36:16: INFO:     Application shutdown complete.
+2026-04-03 09:36:27: 2026-04-03 09:36:27.861 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:36:29: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:36:31: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:36:31: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5301.12it/s]
+2026-04-03 09:36:31: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:36:31: Key                     | Status     |  | 
+2026-04-03 09:36:31: ------------------------+------------+--+-
+2026-04-03 09:36:31: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:36:31: 
+2026-04-03 09:36:31: [3mNotes:
+2026-04-03 09:36:31: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:36:33: 2026-04-03 09:36:33.593 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:36:33: 2026-04-03 09:36:33.595 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:36:33: 2026-04-03 09:36:33.595 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:36:33: 2026-04-03 09:36:33.598 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:36:33: 2026-04-03 09:36:33.690 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:36:34: 2026-04-03 09:36:34.671 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:36:34: INFO:     Started server process [18420]
+2026-04-03 09:36:34: INFO:     Waiting for application startup.
+2026-04-03 09:36:34: INFO:     Application startup complete.
+2026-04-03 09:36:34: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:36:34: INFO:     Waiting for application shutdown.
+2026-04-03 09:36:34: INFO:     Application shutdown complete.
+2026-04-03 09:36:46: 2026-04-03 09:36:46.478 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:36:49: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:36:50: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:36:50: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4985.26it/s]
+2026-04-03 09:36:50: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:36:50: Key                     | Status     |  | 
+2026-04-03 09:36:50: ------------------------+------------+--+-
+2026-04-03 09:36:50: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:36:50: 
+2026-04-03 09:36:50: [3mNotes:
+2026-04-03 09:36:50: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:36:52: 2026-04-03 09:36:52.246 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:36:52: 2026-04-03 09:36:52.248 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:36:52: 2026-04-03 09:36:52.248 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:36:52: 2026-04-03 09:36:52.250 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:36:52: 2026-04-03 09:36:52.309 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:36:53: 2026-04-03 09:36:53.427 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:36:53: INFO:     Started server process [21364]
+2026-04-03 09:36:53: INFO:     Waiting for application startup.
+2026-04-03 09:36:53: INFO:     Application startup complete.
+2026-04-03 09:36:53: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:36:53: INFO:     Waiting for application shutdown.
+2026-04-03 09:36:53: INFO:     Application shutdown complete.
+2026-04-03 09:37:04: 2026-04-03 09:37:04.994 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:37:07: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:37:08: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:37:08: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2937.07it/s]
+2026-04-03 09:37:08: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:37:08: Key                     | Status     |  | 
+2026-04-03 09:37:08: ------------------------+------------+--+-
+2026-04-03 09:37:08: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:37:08: 
+2026-04-03 09:37:08: [3mNotes:
+2026-04-03 09:37:08: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:37:10: 2026-04-03 09:37:10.089 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:37:10: 2026-04-03 09:37:10.092 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:37:10: 2026-04-03 09:37:10.092 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:37:10: 2026-04-03 09:37:10.094 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:37:10: 2026-04-03 09:37:10.149 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:37:11: 2026-04-03 09:37:11.211 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:37:11: INFO:     Started server process [9544]
+2026-04-03 09:37:11: INFO:     Waiting for application startup.
+2026-04-03 09:37:11: INFO:     Application startup complete.
+2026-04-03 09:37:11: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:37:11: INFO:     Waiting for application shutdown.
+2026-04-03 09:37:11: INFO:     Application shutdown complete.
+2026-04-03 09:37:23: 2026-04-03 09:37:23.021 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:37:25: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:37:26: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:37:26: Loading weights: 100%|##########| 199/199 [00:00<00:00, 6557.87it/s]
+2026-04-03 09:37:26: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:37:26: Key                     | Status     |  | 
+2026-04-03 09:37:26: ------------------------+------------+--+-
+2026-04-03 09:37:26: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:37:26: 
+2026-04-03 09:37:26: [3mNotes:
+2026-04-03 09:37:26: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:37:28: 2026-04-03 09:37:28.015 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:37:28: 2026-04-03 09:37:28.017 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:37:28: 2026-04-03 09:37:28.017 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:37:28: 2026-04-03 09:37:28.019 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:37:28: 2026-04-03 09:37:28.104 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:37:29: 2026-04-03 09:37:29.213 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:37:29: INFO:     Started server process [19792]
+2026-04-03 09:37:29: INFO:     Waiting for application startup.
+2026-04-03 09:37:29: INFO:     Application startup complete.
+2026-04-03 09:37:29: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:37:29: INFO:     Waiting for application shutdown.
+2026-04-03 09:37:29: INFO:     Application shutdown complete.
+2026-04-03 09:37:41: 2026-04-03 09:37:41.440 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:37:42: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:37:44: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:37:44: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4143.21it/s]
+2026-04-03 09:37:44: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:37:44: Key                     | Status     |  | 
+2026-04-03 09:37:44: ------------------------+------------+--+-
+2026-04-03 09:37:44: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:37:44: 
+2026-04-03 09:37:44: [3mNotes:
+2026-04-03 09:37:44: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:37:46: 2026-04-03 09:37:46.525 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:37:46: 2026-04-03 09:37:46.527 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:37:46: 2026-04-03 09:37:46.527 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:37:46: 2026-04-03 09:37:46.528 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:37:46: 2026-04-03 09:37:46.595 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:37:47: 2026-04-03 09:37:47.561 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:37:47: INFO:     Started server process [5036]
+2026-04-03 09:37:47: INFO:     Waiting for application startup.
+2026-04-03 09:37:47: INFO:     Application startup complete.
+2026-04-03 09:37:47: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:37:47: INFO:     Waiting for application shutdown.
+2026-04-03 09:37:47: INFO:     Application shutdown complete.
+2026-04-03 09:37:58: 2026-04-03 09:37:58.813 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'who is the chairmen of the VPA port' for session 'session_649hifaai'
+2026-04-03 09:37:58: 2026-04-03 09:37:58.813 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:37:58: 2026-04-03 09:37:58.813 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'who is the chairmen of the VPA port' (alpha=0.7)
+2026-04-03 09:37:58: 2026-04-03 09:37:58.994 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:38:00: 2026-04-03 09:38:00.031 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 19
+2026-04-03 09:38:00: 2026-04-03 09:38:00.031 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 20
+2026-04-03 09:38:00: 2026-04-03 09:38:00.075 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:38:01: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:38:03: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:38:03: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3907.34it/s]
+2026-04-03 09:38:03: 
+2026-04-03 09:38:03: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:38:03: Key                     | Status     |  | 
+2026-04-03 09:38:03: ------------------------+------------+--+-
+2026-04-03 09:38:03: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:38:03: 
+2026-04-03 09:38:03: [3mNotes:
+2026-04-03 09:38:03: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:38:05: 2026-04-03 09:38:05.799 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:38:05: 2026-04-03 09:38:05.808 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:38:05: 2026-04-03 09:38:05.808 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:38:05: 2026-04-03 09:38:05.813 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:38:05: 2026-04-03 09:38:05.896 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:38:07: 2026-04-03 09:38:07.019 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:38:07: INFO:     Started server process [15916]
+2026-04-03 09:38:07: INFO:     Waiting for application startup.
+2026-04-03 09:38:07: INFO:     Application startup complete.
+2026-04-03 09:38:07: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:38:07: INFO:     Waiting for application shutdown.
+2026-04-03 09:38:07: INFO:     Application shutdown complete.
+2026-04-03 09:38:20: 2026-04-03 09:38:20.379 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:38:22: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:38:24: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:38:24: Loading weights: 100%|##########| 199/199 [00:00<00:00, 6009.64it/s]
+2026-04-03 09:38:24: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:38:24: Key                     | Status     |  | 
+2026-04-03 09:38:24: ------------------------+------------+--+-
+2026-04-03 09:38:24: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:38:24: 
+2026-04-03 09:38:24: [3mNotes:
+2026-04-03 09:38:24: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:38:26: 2026-04-03 09:38:26.402 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:38:26: 2026-04-03 09:38:26.406 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:38:26: 2026-04-03 09:38:26.406 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:38:26: 2026-04-03 09:38:26.409 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:38:26: 2026-04-03 09:38:26.496 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:38:27: 2026-04-03 09:38:27.440 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:38:27: INFO:     Started server process [16160]
+2026-04-03 09:38:27: INFO:     Waiting for application startup.
+2026-04-03 09:38:27: INFO:     Application startup complete.
+2026-04-03 09:38:27: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:38:27: INFO:     Waiting for application shutdown.
+2026-04-03 09:38:27: INFO:     Application shutdown complete.
+2026-04-03 09:38:39: 2026-04-03 09:38:39.069 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:38:40: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:38:42: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:38:42: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3020.68it/s]
+2026-04-03 09:38:42: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:38:42: Key                     | Status     |  | 
+2026-04-03 09:38:42: ------------------------+------------+--+-
+2026-04-03 09:38:42: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:38:42: 
+2026-04-03 09:38:42: [3mNotes:
+2026-04-03 09:38:42: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:38:44: 2026-04-03 09:38:44.166 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:38:44: 2026-04-03 09:38:44.168 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:38:44: 2026-04-03 09:38:44.168 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:38:44: 2026-04-03 09:38:44.170 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:38:44: 2026-04-03 09:38:44.221 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:38:45: 2026-04-03 09:38:45.308 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:38:45: INFO:     Started server process [6760]
+2026-04-03 09:38:45: INFO:     Waiting for application startup.
+2026-04-03 09:38:45: INFO:     Application startup complete.
+2026-04-03 09:38:45: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:38:45: INFO:     Waiting for application shutdown.
+2026-04-03 09:38:45: INFO:     Application shutdown complete.
+2026-04-03 09:38:55: 2026-04-03 09:38:55.724 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'What are the different types of ports or berths are thier in VPA' for session 'session_649hifaai'
+2026-04-03 09:38:55: 2026-04-03 09:38:55.724 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:38:55: 2026-04-03 09:38:55.724 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'What are the different types of ports or berths are thier in VPA' (alpha=0.7)
+2026-04-03 09:38:55: 2026-04-03 09:38:55.956 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:38:57: 2026-04-03 09:38:57.213 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 20
+2026-04-03 09:38:57: 2026-04-03 09:38:57.213 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 20
+2026-04-03 09:38:57: 2026-04-03 09:38:57.224 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:38:58: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:39:00: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:39:00: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4614.63it/s]
+2026-04-03 09:39:00: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:39:00: Key                     | Status     |  | 
+2026-04-03 09:39:00: ------------------------+------------+--+-
+2026-04-03 09:39:00: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:39:00: 
+2026-04-03 09:39:00: [3mNotes:
+2026-04-03 09:39:00: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:39:02: 2026-04-03 09:39:02.513 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:39:02: 2026-04-03 09:39:02.515 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:39:02: 2026-04-03 09:39:02.515 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:39:02: 2026-04-03 09:39:02.517 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:39:02: 2026-04-03 09:39:02.594 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:39:03: 2026-04-03 09:39:03.507 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:39:03: INFO:     Started server process [5296]
+2026-04-03 09:39:03: INFO:     Waiting for application startup.
+2026-04-03 09:39:03: INFO:     Application startup complete.
+2026-04-03 09:39:03: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:39:03: INFO:     Waiting for application shutdown.
+2026-04-03 09:39:03: INFO:     Application shutdown complete.
+2026-04-03 09:39:15: 2026-04-03 09:39:15.761 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:39:16: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:39:19: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:39:19: Loading weights: 100%|##########| 199/199 [00:00<00:00, 3442.21it/s]
+2026-04-03 09:39:19: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:39:19: Key                     | Status     |  | 
+2026-04-03 09:39:19: ------------------------+------------+--+-
+2026-04-03 09:39:19: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:39:19: 
+2026-04-03 09:39:19: [3mNotes:
+2026-04-03 09:39:19: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:39:21: 2026-04-03 09:39:21.325 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:39:21: 2026-04-03 09:39:21.327 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:39:21: 2026-04-03 09:39:21.327 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:39:21: 2026-04-03 09:39:21.329 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:39:21: 2026-04-03 09:39:21.408 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:39:22: 2026-04-03 09:39:22.427 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:39:22: INFO:     Started server process [12588]
+2026-04-03 09:39:22: INFO:     Waiting for application startup.
+2026-04-03 09:39:22: INFO:     Application startup complete.
+2026-04-03 09:39:22: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:39:22: INFO:     Waiting for application shutdown.
+2026-04-03 09:39:22: INFO:     Application shutdown complete.
+2026-04-03 09:39:30: 2026-04-03 09:39:30.050 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'How many zones are their?' for session 'session_649hifaai'
+2026-04-03 09:39:30: 2026-04-03 09:39:30.050 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:39:30: 2026-04-03 09:39:30.050 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'How many zones are their?' (alpha=0.7)
+2026-04-03 09:39:30: 2026-04-03 09:39:30.175 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:39:36: 2026-04-03 09:39:36.103 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:39:37: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:39:39: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:39:39: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5787.57it/s]
+2026-04-03 09:39:39: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:39:39: Key                     | Status     |  | 
+2026-04-03 09:39:39: ------------------------+------------+--+-
+2026-04-03 09:39:39: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:39:39: 
+2026-04-03 09:39:39: [3mNotes:
+2026-04-03 09:39:39: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:39:41: 2026-04-03 09:39:41.838 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:39:41: 2026-04-03 09:39:41.840 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:39:41: 2026-04-03 09:39:41.842 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:39:41: 2026-04-03 09:39:41.842 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:39:41: 2026-04-03 09:39:41.936 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:39:42: 2026-04-03 09:39:42.947 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:39:43: INFO:     Started server process [20244]
+2026-04-03 09:39:43: INFO:     Waiting for application startup.
+2026-04-03 09:39:43: INFO:     Application startup complete.
+2026-04-03 09:39:43: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:39:43: INFO:     Waiting for application shutdown.
+2026-04-03 09:39:43: INFO:     Application shutdown complete.
+2026-04-03 09:39:51: 2026-04-03 09:39:51.159 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 20
+2026-04-03 09:39:51: 2026-04-03 09:39:51.159 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 20
+2026-04-03 09:39:55: 2026-04-03 09:39:55.388 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:39:56: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:39:58: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:39:58: Loading weights: 100%|##########| 199/199 [00:00<00:00, 4292.58it/s]
+2026-04-03 09:39:58: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:39:58: Key                     | Status     |  | 
+2026-04-03 09:39:58: ------------------------+------------+--+-
+2026-04-03 09:39:58: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:39:58: 
+2026-04-03 09:39:58: [3mNotes:
+2026-04-03 09:39:58: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:40:00: 2026-04-03 09:40:00.560 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:40:00: 2026-04-03 09:40:00.562 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:40:00: 2026-04-03 09:40:00.562 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:40:00: 2026-04-03 09:40:00.564 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:40:00: 2026-04-03 09:40:00.659 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:40:01: 2026-04-03 09:40:01.656 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:40:01: INFO:     Started server process [11928]
+2026-04-03 09:40:01: INFO:     Waiting for application startup.
+2026-04-03 09:40:01: INFO:     Application startup complete.
+2026-04-03 09:40:01: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:40:01: INFO:     Waiting for application shutdown.
+2026-04-03 09:40:01: INFO:     Application shutdown complete.
+2026-04-03 09:40:13: 2026-04-03 09:40:13.692 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:40:14: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:40:17: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:40:17: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2940.90it/s]
+2026-04-03 09:40:17: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:40:17: Key                     | Status     |  | 
+2026-04-03 09:40:17: ------------------------+------------+--+-
+2026-04-03 09:40:17: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:40:17: 
+2026-04-03 09:40:17: [3mNotes:
+2026-04-03 09:40:17: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:40:20: 2026-04-03 09:40:20.244 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:40:20: 2026-04-03 09:40:20.247 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:40:20: 2026-04-03 09:40:20.247 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:40:20: 2026-04-03 09:40:20.249 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:40:20: 2026-04-03 09:40:20.353 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:40:21: 2026-04-03 09:40:21.439 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:40:21: INFO:     Started server process [21768]
+2026-04-03 09:40:21: INFO:     Waiting for application startup.
+2026-04-03 09:40:21: INFO:     Application startup complete.
+2026-04-03 09:40:21: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:40:21: INFO:     Waiting for application shutdown.
+2026-04-03 09:40:21: INFO:     Application shutdown complete.
+2026-04-03 09:40:33: 2026-04-03 09:40:33.441 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:40:33: 2026-04-03 09:40:33.656 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'in zone 4 how many plots are their' for session 'session_649hifaai'
+2026-04-03 09:40:33: 2026-04-03 09:40:33.656 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:40:33: 2026-04-03 09:40:33.656 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'in zone 4 how many plots are their' (alpha=0.7)
+2026-04-03 09:40:33: 2026-04-03 09:40:33.820 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:40:34: 2026-04-03 09:40:34.471 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 20
+2026-04-03 09:40:34: 2026-04-03 09:40:34.471 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 20
+2026-04-03 09:40:34: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:40:37: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:40:37: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5309.31it/s]
+2026-04-03 09:40:37: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:40:37: Key                     | Status     |  | 
+2026-04-03 09:40:37: ------------------------+------------+--+-
+2026-04-03 09:40:37: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:40:37: 
+2026-04-03 09:40:37: [3mNotes:
+2026-04-03 09:40:37: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:40:38: 2026-04-03 09:40:38.884 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:40:38: 2026-04-03 09:40:38.886 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:40:38: 2026-04-03 09:40:38.886 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:40:38: 2026-04-03 09:40:38.888 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:40:38: 2026-04-03 09:40:38.948 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:40:39: 2026-04-03 09:40:39.951 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:40:40: INFO:     Started server process [16752]
+2026-04-03 09:40:40: INFO:     Waiting for application startup.
+2026-04-03 09:40:40: INFO:     Application startup complete.
+2026-04-03 09:40:40: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:40:40: INFO:     Waiting for application shutdown.
+2026-04-03 09:40:40: INFO:     Application shutdown complete.
+2026-04-03 09:40:53: 2026-04-03 09:40:53.327 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:40:54: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:40:57: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:40:57: Loading weights: 100%|##########| 199/199 [00:00<00:00, 5083.54it/s]
+2026-04-03 09:40:57: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:40:57: Key                     | Status     |  | 
+2026-04-03 09:40:57: ------------------------+------------+--+-
+2026-04-03 09:40:57: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:40:57: 
+2026-04-03 09:40:57: [3mNotes:
+2026-04-03 09:40:57: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:40:59: 2026-04-03 09:40:59.281 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:40:59: 2026-04-03 09:40:59.283 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:40:59: 2026-04-03 09:40:59.283 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:40:59: 2026-04-03 09:40:59.285 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:40:59: 2026-04-03 09:40:59.361 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:41:00: 2026-04-03 09:41:00.340 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:41:00: INFO:     Started server process [2332]
+2026-04-03 09:41:00: INFO:     Waiting for application startup.
+2026-04-03 09:41:00: INFO:     Application startup complete.
+2026-04-03 09:41:00: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:41:00: INFO:     Waiting for application shutdown.
+2026-04-03 09:41:00: INFO:     Application shutdown complete.
+2026-04-03 09:41:13: 2026-04-03 09:41:13.571 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:41:14: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:41:17: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:41:17: Loading weights: 100%|##########| 199/199 [00:00<00:00, 7577.34it/s]
+2026-04-03 09:41:17: 
+2026-04-03 09:41:17: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:41:17: Key                     | Status     |  | 
+2026-04-03 09:41:17: ------------------------+------------+--+-
+2026-04-03 09:41:17: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:41:17: 
+2026-04-03 09:41:17: [3mNotes:
+2026-04-03 09:41:17: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:41:19: 2026-04-03 09:41:19.126 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:41:19: 2026-04-03 09:41:19.129 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:41:19: 2026-04-03 09:41:19.129 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:41:19: 2026-04-03 09:41:19.131 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:41:19: 2026-04-03 09:41:19.232 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:41:20: 2026-04-03 09:41:20.419 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:41:20: INFO:     Started server process [15596]
+2026-04-03 09:41:20: INFO:     Waiting for application startup.
+2026-04-03 09:41:20: INFO:     Application startup complete.
+2026-04-03 09:41:20: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:41:20: INFO:     Waiting for application shutdown.
+2026-04-03 09:41:20: INFO:     Application shutdown complete.
+2026-04-03 09:41:35: 2026-04-03 09:41:35.850 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:41:38: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:41:39: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:41:39: Loading weights:  77%|#######7  | 154/199 [00:00<00:00, 1510.50it/s]
+2026-04-03 09:41:39: Loading weights: 100%|##########| 199/199 [00:00<00:00, 1799.89it/s]
+2026-04-03 09:41:39: 
+2026-04-03 09:41:39: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:41:39: Key                     | Status     |  | 
+2026-04-03 09:41:39: ------------------------+------------+--+-
+2026-04-03 09:41:39: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:41:39: 
+2026-04-03 09:41:39: [3mNotes:
+2026-04-03 09:41:39: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:41:41: 2026-04-03 09:41:41.403 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:41:41: 2026-04-03 09:41:41.405 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:41:41: 2026-04-03 09:41:41.405 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:41:41: 2026-04-03 09:41:41.408 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:41:41: 2026-04-03 09:41:41.501 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:41:42: 2026-04-03 09:41:42.650 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:41:42: INFO:     Started server process [18740]
+2026-04-03 09:41:42: INFO:     Waiting for application startup.
+2026-04-03 09:41:42: INFO:     Application startup complete.
+2026-04-03 09:41:42: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:41:42: INFO:     Waiting for application shutdown.
+2026-04-03 09:41:42: INFO:     Application shutdown complete.
+2026-04-03 09:41:43: 2026-04-03 09:41:43.536 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:41:44: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:41:47: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:41:47: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2243.94it/s]
+2026-04-03 09:41:47: 
+2026-04-03 09:41:47: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:41:47: Key                     | Status     |  | 
+2026-04-03 09:41:47: ------------------------+------------+--+-
+2026-04-03 09:41:47: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:41:47: 
+2026-04-03 09:41:47: [3mNotes:
+2026-04-03 09:41:47: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:41:49: 2026-04-03 09:41:49.326 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:41:49: 2026-04-03 09:41:49.329 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:41:49: 2026-04-03 09:41:49.329 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:41:49: 2026-04-03 09:41:49.329 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:41:49: 2026-04-03 09:41:49.438 | INFO     | backend.core.retriever:_initialize_bm25:36 - HybridRetriever: BM25 initialized with 701 docs.
+2026-04-03 09:41:50: 2026-04-03 09:41:50.518 | INFO     | __main__:<module>:54 - Starting server on 0.0.0.0:8001
+2026-04-03 09:41:50: INFO:     Started server process [19172]
+2026-04-03 09:41:50: INFO:     Waiting for application startup.
+2026-04-03 09:41:50: INFO:     Application startup complete.
+2026-04-03 09:41:50: ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-04-03 09:41:50: INFO:     Waiting for application shutdown.
+2026-04-03 09:41:50: INFO:     Application shutdown complete.
+2026-04-03 09:42:05: 2026-04-03 09:42:05.875 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:42:08: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:42:09: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:42:09: Loading weights:  71%|#######1  | 142/199 [00:00<00:00, 1413.58it/s]
+2026-04-03 09:42:09: Loading weights: 100%|##########| 199/199 [00:00<00:00, 1842.22it/s]
+2026-04-03 09:42:09: 
+2026-04-03 09:42:09: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:42:09: Key                     | Status     |  | 
+2026-04-03 09:42:09: ------------------------+------------+--+-
+2026-04-03 09:42:09: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:42:09: 
+2026-04-03 09:42:09: [3mNotes:
+2026-04-03 09:42:09: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:42:11: 2026-04-03 09:42:11.193 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:42:11: 2026-04-03 09:42:11.195 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:42:11: 2026-04-03 09:42:11.196 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:42:11: 2026-04-03 09:42:11.198 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:42:11: 2026-04-03 09:42:11.199 | INFO     | backend.core.embeddings:__init__:113 - Loading reranker model: BAAI/bge-reranker-base on cpu
+2026-04-03 09:42:11: C:\Users\Asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\file_download.py:129: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Asus\.cache\huggingface\hub\models--BAAI--bge-reranker-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+2026-04-03 09:42:11: To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+2026-04-03 09:42:11:   warnings.warn(message)
+2026-04-03 09:42:16: 2026-04-03 09:42:16.948 | INFO     | backend.core.embeddings:__init__:28 - Loading embedding model: BAAI/bge-base-en-v1.5 on cpu
+2026-04-03 09:42:18: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03 09:42:21: Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+2026-04-03 09:42:21: Loading weights: 100%|##########| 199/199 [00:00<00:00, 2160.33it/s]
+2026-04-03 09:42:21: [1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+2026-04-03 09:42:21: Key                     | Status     |  | 
+2026-04-03 09:42:21: ------------------------+------------+--+-
+2026-04-03 09:42:21: embeddings.position_ids | UNEXPECTED |  | 
+2026-04-03 09:42:21: 
+2026-04-03 09:42:21: [3mNotes:
+2026-04-03 09:42:21: - UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+2026-04-03 09:42:23: 2026-04-03 09:42:23.937 | INFO     | backend.core.embeddings:__init__:33 - Embedding model loaded. Dimension: 768
+2026-04-03 09:42:23: 2026-04-03 09:42:23.941 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded pdf index: 607 vectors
+2026-04-03 09:42:23: 2026-04-03 09:42:23.942 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded web index: 94 vectors
+2026-04-03 09:42:23: 2026-04-03 09:42:23.945 | INFO     | backend.core.vector_store:_load_indexes:48 - Loaded all index: 701 vectors
+2026-04-03 09:42:23: 2026-04-03 09:42:23.945 | INFO     | backend.core.embeddings:__init__:113 - Loading reranker model: BAAI/bge-reranker-base on cpu
+2026-04-03 09:42:28: 2026-04-03 09:42:28.263 | INFO     | backend.api.chat:chat_endpoint:36 - Chat API: Received 'do you have details who is the major player or the company who occupy the most plots in Zone 4' for session 'session_649hifaai'
+2026-04-03 09:42:28: 2026-04-03 09:42:28.263 | INFO     | backend.core.rag_pipeline:answer:37 - RAGPipeline: Processing query for session 'session_649hifaai'
+2026-04-03 09:42:28: 2026-04-03 09:42:28.263 | INFO     | backend.core.retriever:search:49 - HybridRetriever: Searching for 'do you have details who is the major player or the company who occupy the most plots in Zone 4' (alpha=0.7)
+2026-04-03 09:42:28: 2026-04-03 09:42:28.570 | INFO     | backend.core.llm:generate_chat_completion:28 - Generating completion with model: llama-3.1-8b-instant
+2026-04-03 09:42:30: 2026-04-03 09:42:30.056 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added user to session_649hifaai. History size: 20
+2026-04-03 09:42:30: 2026-04-03 09:42:30.056 | DEBUG    | backend.core.memory:add_message:26 - Memory: Added assistant to session_649hifaai. History size: 20
